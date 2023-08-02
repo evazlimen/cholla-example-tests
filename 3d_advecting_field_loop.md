@@ -64,6 +64,7 @@ Upon completion, you should obtain 2 output files. The initial and final densiti
 
 By changing the outstep to 0.05, you will obtain 41 output files and can obtain the below animation:
 
-https://github.com/evazlimen/cholla-example-tests/blob/main/images/advecting_field_loop_density.mp4
+<video width="1200"  controls>
+  <source src="./images/advecting_field_loop_density.mp4" type="video/mp4">
 
 We see the loop moving to the upper right, prompting fluctuations in the background as it transitions out of view before returning in the lower left. 
