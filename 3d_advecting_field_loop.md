@@ -1,5 +1,5 @@
 # 3D Advecting Field Loop
-This test illustrates the ability of a code to preserve $B_{z}$ = 0 (and thus $\del \dot B = 0$) for all time. The test consists of a magnetic loop of magnetic amplitude 0.001 and radius 0.3. The density and pressure are initally 1.0, and the velocity is $\hat{x}$ + $\hat{y}$ + 2 $\hat{z}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Advecting_Field_Loop()`. 
+This test illustrates the ability of a code to preserve $B_{z}$ = 0 (and thus $\nabla \cdot B = 0$) for all time. The test consists of a magnetic loop of magnetic amplitude 0.001 and radius 0.3. The density and pressure are initally 1.0, and the velocity is $\hat{x}$ + $\hat{y}$ + 2 $\hat{z}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Advecting_Field_Loop()`. 
 
 ## Parameter file: (`cholla/examples/3D/advecting_field_loop.txt`)
 ```
@@ -62,9 +62,8 @@ Upon completion, you should obtain 2 output files. The initial and final densiti
 <img src="./images/advecting-field-loop_density_xz.png" alt="Two 2D histograms side by side, showing density of cells in the z direction vs cells in x direction. The leftmost is the initial density plot with a value of 1 for each cell. The rightmost plot is the final density plot at t = 0.2 with a circle of radius 15 cells of higher density (1.000002) in the center of the plot. This region is directly ringed by a region of lower density (0.999999) with a width of 30 cells. The remaining cells have a value of 1" width="1200" />  
 <img src="./images/advecting-field-loop_pressure_xz.png" alt="Two 2D histograms side by side, showing pressure of cells in the z direction vs cells in x direction. The leftmost is the initial pressure plot with circle of density 1.000001 and radius 40 centered on (64, 128). The circle varies slightly in density. The remaining cells have a density of 1. The rightmost plot is the final density plot at t = 0.2 with a circle of radius 15 cells of higher pressure (1.000004) in the center of the plot. There is a small gap before a ring of lower pressure (0.999999) of width 10. The remaining cells vary between 1.000000 and 1.000001 without any sharp transitions." width="1200" />  
 
-By changing the outstep to 0.05, you will obtain 41 output files and can obtain the below animation:
+By changing the outstep to 0.05, you will obtain 41 output files and can obtain the below animation (10 fps):
 
-<video width="1200"  controls>
-  <source src="./images/advecting_field_loop_density.mp4" type="video/mp4">
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/fb323b42-f78a-4181-b69f-3e3fd4334ad7
 
 We see the loop moving to the upper right, prompting fluctuations in the background as it transitions out of view before returning in the lower left. 
