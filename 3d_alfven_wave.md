@@ -77,6 +77,7 @@ rEigenVec_E=0
 ```
 Upon completion, you should obtain 2 output files. By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the total magnetic field (here at 10 fps): 
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/a7c2a8ca-acc9-4599-b855-8ef173f573cf
 
 There are initially two vertical regions of a higher magnetic field centered around x = 75 and x = 200 with a width of 60 cells. They shift rightwards, initiating a period of a more uniform field across the grid, before restrengthening and revealing a third vertical region at the far left. All three regions continue to shift rightwards until the rightmost stripe is no longer visible.
 
