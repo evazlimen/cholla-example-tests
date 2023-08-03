@@ -75,8 +75,8 @@ rEigenVec_By=0
 rEigenVec_Bz=1
 rEigenVec_E=0
 ```
-Upon completion, you should obtain 2 output files. By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the density (here at 10 fps):
+Upon completion, you should obtain 2 output files. By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the density (here at 10 fps):  
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/5a76e7bc-8700-4bc7-80d1-e2f521ae1523  
 
-
-We see the loop moving to the upper right, prompting fluctuations in the background as it transitions out of view before returning in the lower left. 
+The initally flat density increases in two vertical stripes around x = 75 and x = 175 cells. These stripes increase to their maximum density 1-5e13 before shifting slightly rightwards and fading back to a flat profile.
