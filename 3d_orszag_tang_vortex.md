@@ -47,7 +47,7 @@ outdir=./
 gamma=1.666666666666667
 ```
 Upon completion, you should obtain two output files. The final density and total pressures (in code units) of a slice along the z-midplane is shown below as a color coded contour plot. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
-<img src="./images/orszag-tang-vortex_density_pressure_xz.png" alt="Two 2D histograms with contours side by side, showing density and pressure, respectively, of cells in the y direction vs cells in x direction. The leftmost is the final density plot while the rightmost is the final pressure plot, both at t = 0.5. They share similiarities such as two regions of higher density/pressure at the middle, spiraling around each other. However, the pressure plot has less of a gradient between areas of high and low pressure. " width="1200" />  
+<img src="./images/orszag-tang-vortex_density_pressure_xy.png" alt="Two 2D histograms with contours side by side, showing density and pressure, respectively, of cells in the y direction vs cells in x direction. The leftmost is the final density plot while the rightmost is the final pressure plot, both at t = 0.5. They share similiarities such as two regions of higher density/pressure at the middle, spiraling around each other. However, the pressure plot has less of a gradient between areas of high and low pressure. " width="1200" />  
 
 For both density and pressure, we see a vortex growing from the center of the grid. The contours are not perfectly symmetrical, highlighting the small scale disontinuities and vortices.  
 
