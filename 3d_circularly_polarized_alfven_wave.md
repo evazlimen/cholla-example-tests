@@ -59,5 +59,6 @@ Upon completion, you should obtain 2 output files. The initial and final densiti
 
 By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the magnetic field in the z direction (here at 10 fps): 
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/18b591ad-5f5a-46ea-9394-46129b2838df
 
 We see the wavefronts advancing towards the upper right, notably remaining planar.

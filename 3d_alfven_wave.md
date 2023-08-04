@@ -77,12 +77,12 @@ rEigenVec_E=0
 ```
 Upon completion, you should obtain 2 output files. By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the total magnetic field (here at 10 fps): 
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/a7c2a8ca-acc9-4599-b855-8ef173f573cf
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/23af5f90-d7e6-469f-a5ed-f6a3b849d804
 
 There are initially two vertical regions of a higher magnetic field centered around x = 75 and x = 200 with a width of 60 cells. They shift rightwards, initiating a period of a more uniform field across the grid, before restrengthening and revealing a third vertical region at the far left. All three regions continue to shift rightwards until the rightmost stripe is no longer visible.
 
 Similarly we can obtain the density evolution:
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/5a76e7bc-8700-4bc7-80d1-e2f521ae1523  
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/e82dee45-9401-4430-9f20-25d4f1d957e6
 
 The initally flat density increases in two vertical stripes around x = 75 and x = 175 cells. These stripes increase to their maximum density 1-5e13 before shifting slightly rightwards and fading back to a flat profile.
