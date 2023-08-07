@@ -54,4 +54,4 @@ A=1e-4
 # value of gamma
 gamma=1.666666666666667
 ```
-Upon completion, you should obtain five output files. Currently this test is holding denisty and pressure constant throughout the entire duration.
+Upon completion, you should obtain five output files. Currently this test is holding density and pressure constant throughout the entire duration.
