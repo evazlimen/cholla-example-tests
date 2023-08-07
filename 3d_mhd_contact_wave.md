@@ -80,5 +80,6 @@ Upon completion, you should obtain two output files. The difference in final and
 Pressure is held uniform to the $10^{-15}$ decimal level, indicating the code has sufficiently maintained a uniform pressure over the integration.  
 By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the density (here at 10 fps):  
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/b002a3b6-8351-4371-830d-9708e4aeec68
 
 We see the wave moving smoothly and periodically from left to right. 
