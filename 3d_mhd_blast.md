@@ -72,6 +72,6 @@ Upon completion, you should obtain two output files. The initial and final densi
 
 By changing the outstep to 0.005, you will obtain 41 output files and can obtain the evolution of the density (here at 10 fps):  
 
-
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/5a6a51a2-8837-42ca-9ffd-cc431286dfb2
 
 We see a rarefaction wave propagating inwards, creating a region of low density inside the blast radius. At the same time, there is a circular blast wave moving outwards. The contours are smooth and symmetrical.
