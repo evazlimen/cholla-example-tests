@@ -66,6 +66,6 @@ We can take a slice along the y-midplane of the z component of the magnetic fiel
 <img src="./images/advecting_field_bz.png" alt="A scatter plot of B_z vs time. B_z is on the order of 1e-7, gradually increasing with time." width="1200" />  
 By changing the outstep to 0.05, you will obtain 41 output files and can obtain the below animation (10 fps):
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/fb323b42-f78a-4181-b69f-3e3fd4334ad7
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/54c4bd43-e808-4326-97b7-0726ee8ce6a2
 
 We see the loop moving to the upper right, prompting fluctuations in the background as it transitions out of view before returning in the lower left. 
