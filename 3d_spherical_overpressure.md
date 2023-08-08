@@ -1,5 +1,5 @@
 # 3D Spherical Overpressure
-This test illustrates the ability of a code to handle a spherical explosion due to spherical overdensity and overpressure. The test consists of a sphere of radius 0.2 centered at (0.5, 0.5, 0.5) with a density of 1 and pressure of 11, surrounded by a background density and pressure of 0.1 and 1, respectively. This test is performed with the ??? build (`cholla/builds/make.type.??`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Spherical_Overpressure_3D()`. 
+This test illustrates the ability of a code to handle a spherical explosion due to spherical overdensity and overpressure. The test consists of a sphere of radius 0.2 centered at (0.5, 0.5, 0.5) with a density of 1 and pressure of 11, surrounded by a background density and pressure of 0.1 and 1, respectively. This test was performed with the default hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Spherical_Overpressure_3D()`. 
 
 ## Parameter file: (`cholla/examples/3D/Spherical_Overpressure.txt`)
 Note that the output directory needs to be changed for the user.
