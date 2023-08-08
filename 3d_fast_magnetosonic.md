@@ -77,8 +77,8 @@ rEigenVec_E=2.0124611797498106
 ```
 Upon completion, you should obtain two output files. With outstep = 0.01 you will obtain 51 outputs and can obtain the evolution of the total magnetic field and the total presure (here at 10 fps):Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/901b55f0-d603-41c3-9978-34825c73962a
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/b0ae49ce-7540-4f72-9e7a-1334c81ce720
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/df4257c6-b34a-4686-99d4-d3183011234b
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/3e8ee5b8-2214-4a4f-a74b-21d46bf8cea2
 
 As expected for a fast magnetosonic wave, we see that the magnetic and pressure oscillations are in phase.
