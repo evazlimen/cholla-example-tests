@@ -53,4 +53,5 @@ For both density and pressure, we see a vortex growing from the center of the gr
 
 With outstep = 0.01, you will obtain 51 output files and can obtain the evolution of the total density (here at 10 fps):  
 
-https://github.com/evazlimen/cholla-example-tests/assets/109487593/e554f705-5a16-4a96-9e2c-7ed3491379d2
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/5bc07396-8630-4e93-a5e4-7c45be453d36
+
