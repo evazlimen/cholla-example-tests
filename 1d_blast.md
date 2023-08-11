@@ -47,4 +47,4 @@ We see a contact discontinuity around x = 225 cells followed by a shock at x = 2
 
 We can also obtain the evolution of the density (here at 10 fps):
 
-
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/dc8f00c9-f122-461d-b11c-a02aeb9dfeaa
