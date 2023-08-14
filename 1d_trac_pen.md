@@ -69,4 +69,10 @@ We see a shock, followed by a rarefaction, contact discontinuity, shock, shock, 
 It is difficult to discern whether this solution is in agreement with that of Trac and Pen (2004): 
 Plot information from Trac and Pen (2004): "In Fig. 1, we compare the results of the static and boosted tests. In Fig. 1(a), the static test results for MACH code (open circles) and Relaxing TVD code (crosses) are plotted against the exact solution (solid lines). The Relaxing TVD results have been shifted both horizontally and vertically for clarity. The plots have been rescaled such that the initial discontinuity is placed at x = 0 and the shock front at x = 1. The grid spacing corresponds to delta x =  0.02"
 
+![trac_pen2004](https://github.com/evazlimen/cholla-example-tests/assets/109487593/b145e2e4-8555-4f00-a585-a09e7051ac47)
+
 By changing the outstep to 0.008, we can also obtain the evolution of the density (here at 8 fps):
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/949a5a09-70ad-4b46-9e7e-8c208ed1b651
+
+
