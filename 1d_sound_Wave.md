@@ -2,7 +2,7 @@
 This test initializes a compression/rarefaction wave across the grid. The setup consists of an initial density and pressure of 1.0 and 0.6, respectively. A sound wave is initialized as a sinusoidal wave with amplitude 1e-4 and wavelength of 1.0. Gamma is set to 1.666666666666667. This test was performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Sound_Wave()`. 
 
 ## Parameter file: (modified from`cholla/examples/1D/sound_wave.txt`)
-Modified to add yl_bcnd, yu_bcnd, zl_bcnd, and zu_bcnd=0,
+Modified to add yl_bcnd, yu_bcnd, zl_bcnd, and zu_bcnd=0
 ```
 #
 # Parameter File for sound wave test
