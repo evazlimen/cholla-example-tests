@@ -68,3 +68,7 @@ Upon completion, you should obtain two output files. The final density and press
 <img src="./images/1dstationary_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 1.0 remain constant until x = 10 cells, at which it decreases to a value of 0.6 by x = 40 cells. Here it remains approximately constant until it spikes to a value of 4 around x = 80 cells. The width of the spike is approximately 10 cells. From x = 90 to x = 100 cells density is constant, very near zero. The pressure plot shows a value of 1000 until x = 10 cells. Here it gradually decreases to a value of 450 at x = 40 cells, where it remains constant until x = 80 cells. It abruptly drops to almost zero and stays there for the remaining 15 cells. In the upper right hand corner of both plots is the text 't= 0.012'." width="1200" />  
 
 We see a stationary contact at x = 80. The width of the contact is not fully resolved. Note that the density on the right side of the contact is lower than that on the left side, in contrast to Liska and Wendroff 2003 (http://www-troja.fjfi.cvut.cz/~liska/CompareEuler/compare8-bw.pdf).
+
+![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/66497918-ece1-4d01-8961-8ab7f8c0ec8b)
+
+I could not directly compare to Toro test 5 without buying Toro, E. F. (2013). Riemann solvers and numerical methods for fluid dynamics: a practical introduction.
