@@ -1,5 +1,5 @@
 # 1D Noh Strong Shock
-This test highlights the ability of a code to track a high Mach number shock. Density is set to 1.0 and pressure to 0.000001 everywhere. For x < 0.5 the velocity is set to 1, while for x > 0.5, velocity is set to -1. Gamma is set to 1.66667. This test was performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Constant()`. 
+This test highlights the ability of a code to track a high Mach number shock. Density is set to 1.0 and pressure to 0.000001 everywhere. For x \< 0.5 the velocity is set to 1, while for x \> 0.5, velocity is set to -1. Gamma is set to 1.66667. This test was performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Constant()`. 
 
 ## Parameter file: (modified from `cholla/examples/1D/noh_1D.txt`)
 Modified to add yl_bcnd, yu_bcnd, zl_bcnd, and zu_bcnd=0. Changed init=Riemann. 
