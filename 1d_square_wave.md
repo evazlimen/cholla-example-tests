@@ -58,4 +58,6 @@ gamma=1.666666666666667
 ```
 Upon completion, you should obtain 101 output files. We can obtain the evolution of the density (here at 10 fps). Pressure is constant to the $10^{-14}$ level. Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/fa4e2879-5c8c-4eb6-8073-4f8d7fb357fe
+
 We see a square waveform of amplitude 1.5 propagating rightwards.
