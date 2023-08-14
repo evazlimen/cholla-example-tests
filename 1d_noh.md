@@ -62,7 +62,7 @@ diaph=0.5
 gamma=1.66667
 ```
 Upon completion, you should obtain two output files. The final density and pressure (in code units) of the solution is shown below .  Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
-<img src="[images/1dnoh_density_pressure.png](https://github.com/evazlimen/cholla-example-tests/blob/main/images/1dnoh_density_pressure.png)" alt="Two scatter plots side by side. The left shows density vs cells in the x direction while the right shows pressure vs cells in the x direction. The density plot shows what resembles a concave down parabola until x = 40 where it jupms from a value of 0.675 to 0775. It jumps back to 0.675 at x = 55 and resumes the concave down parabola. The pressure plot shows a concave down parabola starting at a value of 0.055 and increasing to 0.075 at x = 50 before decreasing symmetrically. width="1200" />  
+<img src="images/1dnoh_density_pressure.png" alt="Two scatter plots side by side. The left shows density vs cells in the x direction while the right shows pressure vs cells in the x direction. The density plot shows what resembles a concave down parabola until x = 40 where it jupms from a value of 0.675 to 0775. It jumps back to 0.675 at x = 55 and resumes the concave down parabola. The pressure plot shows a concave down parabola starting at a value of 0.055 and increasing to 0.075 at x = 50 before decreasing symmetrically." width="1200" />  
 
 Note that currently (SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004) this solution does not match that of Liska and Wendroff 2003: the center of the density plot does not flatten out, forming a maximum that abruptly drops off at the edges. 
 
