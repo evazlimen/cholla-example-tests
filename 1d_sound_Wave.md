@@ -57,4 +57,8 @@ gamma=1.666666666666667
 ```
 Upon completion, you should obtain five output files. By changing the outstep to 0.005, we can obtain the evolution of the pressure and density (here at 4 fps).  Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/fa7d5503-1308-4562-a598-5eccba189680
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/400b6c5c-9e74-43a6-a7f2-cab3074c8d39
+
 We see alternating regions of rarefaction and compression moving rightwards.
