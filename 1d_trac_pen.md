@@ -75,4 +75,4 @@ By changing the outstep to 0.008, we can also obtain the evolution of the densit
 
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/949a5a09-70ad-4b46-9e7e-8c208ed1b651
 
-
+Information is as of SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004.
