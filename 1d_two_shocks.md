@@ -65,4 +65,9 @@ gamma=1.4
 Upon completion, you should obtain 2 output files. The final density and pressure (in code units) of the solution is shown below .  Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
 <img src="./images/1dtwo-shocks_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 0.1 for x = 0 to x = 20. It then jumps to a value of 2.5. It gradually inceases until x = 65 cells to a value of 7. From this point it resembles a concave down parabola with maximum of 24 at x = 75and width of 20. It has a mininum at x = 85 of 0.2. It then gradually decreases to 0.1 by x = 100. The pressure plot is similar, with a constant value of 0.1 until x = 20, followed by a jump to a value of 180. It then gradually increases up to a value of 1100 at x = 75, and decreases to a value of 600 at x = 85. It then drops to 0.1.. In the lower right hand corner of both plots is the text 't= 0.035'." width="1200" />  
 
-We see a shock, followed by a rarefaction and another shock. This is in contrast to Toro's solution which finds a shock, contact discontinuity, and a shock, and can be seen below:
+We see a shock, followed by a rarefaction and another shock. This is in contrast to Toro's solution which finds a shock, contact discontinuity, and a shock, and can be seen below:   
+
+![toro2013test4](https://github.com/evazlimen/cholla-example-tests/assets/109487593/e656758b-06e8-4420-85e7-fcab3108536d)
+
+
+Information is as of SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004.
