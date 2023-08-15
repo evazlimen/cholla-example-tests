@@ -65,8 +65,11 @@ gamma=1.4
 Upon completion, you should obtain two output files. The final density and pressure (in code units) of the solution is shown below . Examples of how to extract and plot data can be found in cholla/python_scripts/plot_sod.ipynb.  
 <img src="./images/1dtest-3_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 1.0 gradually decrease to 0.1 by x = 40 cells, where it reamins constant until x = 70 cells. Here it jumps to a value of 6 before dropping back down to a value of 1. The width of the spike is around 10 cells. The density remains at 1 for the remainder of the grid. The pressure plot shows a value of 1000 gradually decrease to 450 by x = 40 cells. Here it remains approximately constant until x = 80 cells where it drops discontinuously to a value approaching zero. In the upper right hand corner of both plots is the text 't= 0.012'." width="1200" />  
 
-We see a contact discontinuity follow directly by a shock. This solution is in agreement with that of Toro test 3, shown below:
+We see a contact discontinuity follow directly by a shock. This solution is in agreement with that of Toro test 3, shown below:  
 ![toro2013test3](https://github.com/evazlimen/cholla-example-tests/assets/109487593/0eb33a5e-331a-4548-bfff-a492378e959e)
 
+
+
+    
 Interestingly, it better matches the expected Liska and Wendroff 2003 test 3a ('stationary') solution than stationary parameter file: see [stationary](https://github.com/evazlimen/cholla-example-tests/blob/main/1d_stationary.md) and 
 ![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/892728ed-2ed6-433e-ab83-059f99238149)
