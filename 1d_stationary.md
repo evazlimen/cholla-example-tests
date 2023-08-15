@@ -72,3 +72,5 @@ We see a stationary contact at x = 80. The width of the contact is not fully res
 ![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/66497918-ece1-4d01-8961-8ab7f8c0ec8b)
 
 I could not directly compare to Toro test 5 without buying Toro, E. F. (2013). Riemann solvers and numerical methods for fluid dynamics: a practical introduction.
+
+All information is as of SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004.
