@@ -1,5 +1,7 @@
 # 1D Stationary Contact
-This test initializes a stationary contact. The setup consists of a pressure of 1000 for 0 \< x \< 0.8 and 0.01 for 0.8 \< x \< 1.0. Density and velocity are equal on both sides of the contact with values of 1.0 and -19.59745, respectively. Gamma is set to 1.4. This test was performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Riemann()`. 
+This test initializes a stationary contact. The setup consists of a pressure of 1000 for 0 \< x \< 0.8 and 0.01 for 0.8 \< x \< 1.0. Density and velocity are equal on both sides of the contact with values of 1.0 and -19.59745, respectively. Gamma is set to 1.4. This test was performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Riemann()`.  
+
+**Important:** This test must be run with diode boundaries [disabled](https://github.com/alwinm/cholla/tree/main-diode) in order to perform as expected (thank you @alwinm!).  
 
 ## Parameter file: (modified from`cholla/examples/1D/stationary.txt`)
 Modified to add yl_bcnd, yu_bcnd, zl_bcnd, and zu_bcnd=0
@@ -65,9 +67,9 @@ diaph=0.8
 gamma=1.4
 ```
 Upon completion, you should obtain two output files. The final density and pressure (in code units) of the solution is shown below . Examples of how to extract and plot data can be found in cholla/python_scripts/plot_sod.ipynb.  
-<img src="./images/1dstationary_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 1.0 remain constant until x = 10 cells, at which it decreases to a value of 0.6 by x = 40 cells. Here it remains approximately constant until it spikes to a value of 4 around x = 80 cells. The width of the spike is approximately 10 cells. From x = 90 to x = 100 cells density is constant, very near zero. The pressure plot shows a value of 1000 until x = 10 cells. Here it gradually decreases to a value of 450 at x = 40 cells, where it remains constant until x = 80 cells. It abruptly drops to almost zero and stays there for the remaining 15 cells. In the upper right hand corner of both plots is the text 't= 0.012'." width="1200" />  
+<img src="./images/1d_stationary-funkybranch_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 1.0 remain constant until x = 10 cells, at which it decreases to a value of 0.6 by x = 40 cells. Here it remains approximately constant until it spikes to a value of 6 around x = 80 cells. The width of the spike is less than 10 cells. From x = 90 to x = 100 cells density is constant at 1. The pressure plot shows a value of 1000 until x = 10 cells. Here it gradually decreases to a value of 450 at x = 40 cells, where it remains constant until x = 80 cells. It abruptly drops to almost zero and stays there for the remaining 15 cells. In the upper left corner of the first plot and upper right corner of the second plot is the text 't= 0.012'." width="1200" />  
 
-We see a stationary contact at x = 80. The width of the contact is not fully resolved. Note that the density on the right side of the contact is lower than that on the left side, in contrast to Liska and Wendroff 2003 (http://www-troja.fjfi.cvut.cz/~liska/CompareEuler/compare8-bw.pdf).
+We see a stationary contact at x = 80. The width of the contact is not fully resolved. With the diode disabled,this solution matches that of Liska and Wendroff 2003 (http://www-troja.fjfi.cvut.cz/~liska/CompareEuler/compare8-bw.pdf).
 
 ![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/66497918-ece1-4d01-8961-8ab7f8c0ec8b)
 

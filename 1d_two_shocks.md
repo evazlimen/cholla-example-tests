@@ -1,5 +1,7 @@
 # 1D Two Shocks
-This test highlights a collision between two shocks. The test consists of left and right states separated at x = 0.4 with velocities 19.5975 and -6.19633, respectively. Density of the left side is 5.99924 and pressure is 460.894. For the right side, density is 5.99242 while pressure is 46.095. Gamma is set to 1.4. This test is performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Riemann()`. 
+This test highlights a collision between two shocks. The test consists of left and right states separated at x = 0.4 with velocities 19.5975 and -6.19633, respectively. Density of the left side is 5.99924 and pressure is 460.894. For the right side, density is 5.99242 while pressure is 46.095. Gamma is set to 1.4. This test is performed with the hydro build (`cholla/builds/make.type.hydro`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Riemann()`.  
+
+**Important:** This test must be run with diode boundaries [disabled](https://github.com/alwinm/cholla/tree/main-diode) in order to perform as expected (thank you @alwinm!).  
 
 ## Parameter file: (**modified** to add y and z boundary conditions = 0 from `cholla/examples/1D/two_shocks.txt`)
 ```
@@ -63,9 +65,9 @@ diaph=0.4
 gamma=1.4
 ```
 Upon completion, you should obtain 2 output files. The final density and pressure (in code units) of the solution is shown below .  Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
-<img src="./images/1dtwo-shocks_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 0.1 for x = 0 to x = 20. It then jumps to a value of 2.5. It gradually inceases until x = 65 cells to a value of 7. From this point it resembles a concave down parabola with maximum of 24 at x = 75and width of 20. It has a mininum at x = 85 of 0.2. It then gradually decreases to 0.1 by x = 100. The pressure plot is similar, with a constant value of 0.1 until x = 20, followed by a jump to a value of 180. It then gradually increases up to a value of 1100 at x = 75, and decreases to a value of 600 at x = 85. It then drops to 0.1.. In the lower right hand corner of both plots is the text 't= 0.035'." width="1200" />  
+<img src="./images/1d_two_shocks_funkybranch_density_pressure.png" alt="Two scatter plots side by side, showing density vs cells in the x direction on the left and pressure vs cells in the x direction on the right. The density plot shows a value of 5.99924 for x = 0 to x = 40. It then jumps discontinuously to a value of 15. It jumps again, albeit less sharply, to a value of 33 at x = 70 cells. It remains here until x = 80 cells where is drops discontinuously to a value of 5.99924, where it stays for the last 20 cells. The pressure plot has a constant value of 460.894 from x = 0 to x= 40 before jumping discontinuously to a value of 1700. It drops to a value of 50 at x = 80 and remains there for the last 20 cells. In the lower right hand corner of both plots is the text 't= 0.035'." width="1200" />  
 
-We see a shock, followed by a rarefaction and another shock. This is in contrast to Toro's solution which finds a shock, contact discontinuity, and a shock, and can be seen below:   
+We see a shock, contact discontinuity, and a shock, which is in agreement with Toro's solution and can be seen below:  
 
 ![toro2013test4](https://github.com/evazlimen/cholla-example-tests/assets/109487593/e656758b-06e8-4420-85e7-fcab3108536d)
 
