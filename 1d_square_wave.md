@@ -60,4 +60,8 @@ Upon completion, you should obtain 101 output files. We can obtain the evolution
 
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/fa4e2879-5c8c-4eb6-8073-4f8d7fb357fe
 
-We see a square waveform of amplitude 1.5 propagating rightwards.
+We see a square waveform of amplitude 1.5 propagating rightwards.  
+
+If the wave is left to propagate for an extended period of time, we observe a breakdown in the structure:
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/7e45ec1c-0d61-452f-abc9-eeb2f1eb0024
