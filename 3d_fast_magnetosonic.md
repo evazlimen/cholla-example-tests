@@ -75,7 +75,7 @@ rEigenVec_By=0.8944271909999159
 rEigenVec_Bz=0.0
 rEigenVec_E=2.0124611797498106
 ```
-Upon completion, you should obtain two output files. With outstep = 0.01 you will obtain 51 outputs and can obtain the evolution of the total magnetic field and the total presure (here at 10 fps):Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
+Upon completion, you should obtain two output files. With outstep = 0.01 you will obtain 51 outputs and can obtain the evolution of the total magnetic field and the total presure (here at 10 fps): Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
 
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/b0ae49ce-7540-4f72-9e7a-1334c81ce720
 
