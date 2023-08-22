@@ -76,7 +76,8 @@ rEigenVec_Bz=0.0
 rEigenVec_E=0.5
 ```
 Upon completion, you should obtain two output files. The difference in final and initial total pressure (in code units) of a slice along the y-midplane is shown below. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
-<img src="./images/mhd-contact-wave_pressure_xz.png" alt="A 2D histogram showing the pressure difference between initial and final pressures of cells in the z direction vs cells in x direction. The pressure difference is on the order of 10^-15." width="1200" />  
+  
+<img src="./images/mhd-contact-wave_pressure_xz.png"  alt="A 2D histogram showing the pressure difference between initial and final pressures of cells in the z direction vs cells in x direction. The pressure difference is on the order of 10^-15." width="1200"/>  
 Pressure is held uniform to the $10^{-15}$ decimal level, indicating the code has sufficiently maintained a uniform pressure over the integration.  
 By changing the outstep to 0.01, you will obtain 101 output files and can obtain the evolution of the density (here at 10 fps):  
 
