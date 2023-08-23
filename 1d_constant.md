@@ -56,5 +56,5 @@ gamma=1.666666667
 Upon completion, you should obtain two output files. The final density and pressure (in code units) of the solution is shown below .  Examples of how to extract and plot data can be found in `cholla/python_scripts/plot_sod.ipynb`.  
 <img src="./images/1dconstant_density_pressure.png" alt="Two rows of two scatter plots side by side. The first row shows density vs cells in the x direction while the second shows pressure vs cells in the x direction. The first column of each row shows the initial density/pressure, with the text 't = 0' in the upper right corner of both plots. The second row shows the final outcomes, with the text 't = 100000' in the upper right corner of both plots. The initial plots are identical to the final plots for both density and pressure. Density is constant at 1e4 and pressure is constant at 1.380658e-5." width="1200" />  
 
-We obtain a box of gas that is both constant in time and uniform in space. 
+We obtain a box of gas that is both constant in time and uniform in space. The L1 error norm for the difference between initial and final states is zero for both density and pressure. 
 
