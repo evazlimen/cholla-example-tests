@@ -54,4 +54,8 @@ A=1e-4
 # value of gamma
 gamma=1.666666666666667
 ```
-Upon completion, you should obtain five output files. Currently this test is holding density and pressure constant throughout the entire duration.
+Upon completion, you should obtain five output files. The wave is easier to see by increasing tout. Here, we see the evolution of the density and pressure at 10 fps:  
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/d518f382-432d-4d4c-8950-6c2cf3c16003
+  
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/483ea110-6dea-4c47-a551-961c934efb6a
