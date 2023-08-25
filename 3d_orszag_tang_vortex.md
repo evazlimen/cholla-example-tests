@@ -1,5 +1,5 @@
-# 3D Orszag-Tang Vortex
-This test explores the transition to supersonic MHD turbulence. It illustrates the ability of a code to handle shock-shock interactions as well as the formation of MHD shocks and turbulent dynamics. This test is performed with the mhd build (`cholla/builds/make.type.mhd`).Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Orszag_Tang_Vortex()`. 
+# 3D Orszag-Tang Vortex 
+Described in Orszag and Tang, 1979. This test explores the transition to supersonic MHD turbulence. It illustrates the ability of a code to handle shock-shock interactions as well as the formation of MHD shocks and turbulent dynamics. This test is performed with the mhd build (`cholla/builds/make.type.mhd`).Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Orszag_Tang_Vortex()`. 
 
 ## Parameter file: (`cholla/examples/3D/orszag_tang_vortex.txt`)
 ```
@@ -50,6 +50,9 @@ Upon completion, you should obtain two output files. The final density and total
 <img src="./images/orszag-tang-vortex_density_pressure_xy.png" alt="Two 2D histograms with contours side by side, showing density and pressure, respectively, of cells in the y direction vs cells in x direction. The leftmost is the final density plot while the rightmost is the final pressure plot, both at t = 0.5. They share similiarities such as two regions of higher density/pressure at the middle, spiraling around each other. However, the pressure plot has less of a gradient between areas of high and low pressure. " width="1200" />  
 
 For both density and pressure, we see a vortex growing from the center of the grid. The contours are not perfectly symmetrical, highlighting the small scale disontinuities and vortices.  
+
+We can compare to the solution of Martin and Miniati 2011:  
+<img src="./images/orszag-tang_from_miniati_and_martin_2011.png" width="1200" />  
 
 With outstep = 0.01, you will obtain 51 output files and can obtain the evolution of the total density (here at 10 fps):  
 
