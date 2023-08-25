@@ -1,5 +1,5 @@
 # 3D Circularly Polarized Alfven Wave
-This is an exact nonlinear solution to the MHD equations. It is often used for convergence testing and to test how the code handles nonlinearity. The test consists a density of 1.0 and pressure of 0.1 with a right polarized moving wave of amplitude 0.1 and wavelength 1.0. The magnetic field is initialized as 1 $\hat{x}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Circularly_Polarized_Alfven_Wave()`. 
+This is an exact nonlinear solution to the MHD equations. It is often used for convergence testing and to test how the code handles nonlinearity. Parameters from Gardiner & Stone 2008. The test consists a density of 1.0 and pressure of 0.1 with a right polarized moving wave of amplitude 0.1 and wavelength 1.0. The magnetic field is initialized as 1 $\hat{x}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Circularly_Polarized_Alfven_Wave()`. 
 
 ## Parameter file: (`cholla/examples/3D/cicularly_polarized_alfven_wave.txt`)
 ```
