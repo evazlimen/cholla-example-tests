@@ -81,5 +81,5 @@ Upon completion, you should obtain two output files. The initial and final densi
 A skewer in x along  y and z midplanes yields the 1-dimensional solution. Theta is defined as $\arctan{\frac{B_{z}}{B_{y}}}:  
 <img src="./images/3d-dai-woodward_9panel_density_pressure.png" alt="Nine scatter plots showing density, total pressure, energy, vx, vy, vz, by, bz, and theta. The density plot shows density of 1.08 abruptly increases to 1.5 at x = 80 cells, followed by a second jump to a density of 1.6 at x = 140 cells. It drops back down to 1.5 at x = 150 and drops again to 1.3 at x = 175. It has a final drop at x = 240 to a denisty of 0.95. Below are two scatter plots side by side of total pressure. The pressure plot consists of a value of 1.5 until x = 80 where it jumps to 2.7. It jumps less abruptly again at x = 140 to 2.8 and symmetrically drops back down to 2.7 at x = 175. It has a final drop at x = 240 to a value of 1.6. " width="1200" />  
 We can compare to Miniati & Martin 2011 (note that they are plotting gas pressure, not total pressure):
-<img src="./images/dai-woodward.png"
+<img src="./images/dai-woodward.png" width="1200" />  
 From left to right, we see a fast shock followed by Alfven/rotation waves, a slow shock, contact discontinuity, slow shock, alfven/roation waves, and a fast shock
