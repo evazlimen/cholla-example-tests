@@ -75,3 +75,10 @@ By changing the outstep to 0.005, you will obtain 41 output files and can obtain
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/e3ef12b4-40e8-49f4-acaf-a48d85132a59
 
 We see a rarefaction wave propagating inwards, creating a region of low density inside the blast radius. At the same time, there is a circular blast wave moving outwards. The contours are smooth and symmetrical.
+
+We can compare to the final density contours of Stone and Gardiner (2008):  
+Cholla:  
+<img src="./images/mhd-blast_densitycontour_xy.png" width="1200" />  
+
+Stone and Gardiner:  
+<img src="./images/mhd-blast.png" width="1200" />  
