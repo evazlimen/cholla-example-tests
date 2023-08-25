@@ -1,5 +1,5 @@
 # 3D Advecting Field Loop
-This test illustrates the ability of a code to preserve $B_{z}$ = 0 (and thus $\nabla \cdot B = 0$) for all time. The test consists of a magnetic loop of magnetic amplitude 0.001 and radius 0.3. The density and pressure are initally 1.0, and the velocity is $\hat{x}$ + $\hat{y}$ + 2 $\hat{z}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Advecting_Field_Loop()`. 
+This test illustrates the ability of a code to preserve $B_{z}$ = 0 (and thus $\nabla \cdot B = 0$) for all time. Parameters from Gardiner & Stone 2008. The test consists of a magnetic loop of magnetic amplitude 0.001 and radius 0.3. The density and pressure are initally 1.0, and the velocity is $\hat{x}$ + $\hat{y}$ + 2 $\hat{z}$. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Advecting_Field_Loop()`. 
 
 ## Parameter file: (`cholla/examples/3D/advecting_field_loop.txt`)
 ```
