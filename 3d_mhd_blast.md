@@ -81,4 +81,5 @@ Cholla:
 <img src="./images/mhd-blast_densitycontour_xy.png" width="1200" />  
 
 Stone and Gardiner:  
-<img src="./images/mhd-blast.png" width="1200" />  
+  
+<img src="./images/mhd-blast.jpg" width="1200" />  
