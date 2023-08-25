@@ -53,4 +53,4 @@ Bz=3.0e-5
 # value of gamma
 gamma=1.666666667
 ```
-Upon completion, you should obtain 2 output files. The pressure, density, and magnetic fields all remain constant over the grid for the duration of the integration.
+Upon completion, you should obtain 2 output files. The pressure, density, and magnetic fields all remain constant over the grid for the duration of the integration. The L1 error norm for pressure, density, all three components of velocity, and all three components of magnetic field is zero.
