@@ -83,7 +83,8 @@ Upon completion, you should obtain two output files. The initial and final densi
   
 <img src="./images/ryu-jones-1a_density_xz.png" alt="Two 2D histograms side by side, showing density of cells in the z direction vs cells in x direction. The leftmost is the initial density plot with a value of 1.0 across all cells. The rightmost plot is the final density plot at t = 0.08 with a constant density in z and nonconstant in x. From left to right, a density of 1 jumps to a value of 2.5 at x = 40 cells, followed by a jump to 3.9 at x = 150 cells and a drop to 3.85 at c = 160 cells. There is a final density drop to 1.0 at x = 225 cells." width="1200" />  
   
-A skewer in x along y and z midplanes yields the 1-dimensional solution. $\psi$ is defined at $\tan^{-1}\left(\frac{B_{z}}{B_{y}}\right):  
+A skewer in x along y and z midplanes yields the 1-dimensional solution. $\psi$ is defined at $\tan^{-1}\left(\frac{B_{z}}{B_{y}}\right)$:  
+  
 <img src="./images/3d-ryu-jones-1a_9panel_density_pressure.png" alt="Nine scatter plots of density, pressure, energy, x velocity, y velocity, z velocity, magnetic field in y, magnetic field in z, and psi vs x position in cells. The density plot shows a value of 1 jump to a value of 2.5 at x = 40 cells, followed by a jump to 3.9 at x = 140 cells and a drop to 3.85 at c = 150 cells. There is a final density drop to 1.0 at x = 225 cells. The pressure plot consists of a value of 1 which jumps to 155 at x = 40 cells. This value remains until x = 150, where it transitions to a value of x = 145. There is a final drop in pressure to 1.0 around x = 225 cells. " width="1200" />  
 From left to right, we see a fast shock followed by a slow rarfaction, contact discontinuity, slow shock, and fast shock..
 
