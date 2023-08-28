@@ -42,4 +42,4 @@ outdir=/raid/bruno/data/cosmo_sims/cholla_pm/uniform/
 ```
 Upon completion, you should obtain 1 output file. The density (in code units) of a slice along the y-midplane is shown below. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
 <img src="./images/uniform_density_xz.png" alt="A 2D histogram showing density of cells in the z direction vs cells in x direction. Density is zero throughout the plot." width="1200" />  
-Our grid is initialized uniformly with zero density as expected.
+Our grid is initialized uniformly with zero density as expected, with an L1 error norm of 0.
