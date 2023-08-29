@@ -50,4 +50,6 @@ ddelta_dt=-0.001
 # path to output directory
 outdir=./
 ```
-Upon completion, you should obtain 501 output files. Currently this test is producing a grid of zero density, zero energy, and undefined pressure for the entirety of the run. 
+Upon completion, you should obtain 501 output files. Currently this test is producing a grid of zero density, zero energy, and undefined pressure for the entirety of the run.  
+
+Note that the 2D disk, which does run, has its initial conditions set in `cholla/src/grid/initial_conditions.cpp`.
