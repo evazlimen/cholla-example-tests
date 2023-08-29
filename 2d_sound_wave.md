@@ -55,3 +55,4 @@ gamma=1.666666666666667
 ```
 Upon completion, you should obtain 6 output files. Here, we see the evolution of the density at 10 fps:  
 
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/36cb78a4-51a5-4fbf-a73e-cadcb6fbdb81
