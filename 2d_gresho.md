@@ -45,6 +45,10 @@ Density:
 Pressure:  
 <img src="./images/2dgresho_pressure_xy.png" width="1200" />  
 
+An evolution of the pressure at 10 fps is shown below:  
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/d5d1b114-c043-4ab3-a002-6acd616714ae
+
 Final pressure and magnitude of velocity of the upper right corner is shown below:
 <img src="./images/2dgresho_pressure_v_xy.png" width="1200" />  
 
