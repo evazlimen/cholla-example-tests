@@ -47,7 +47,9 @@ Density:
 Pressure:  
 <img src="./images/2dkh_discontinuous_pressure_xy.png" width="1200" />  
 
-We see even on a relatively low resolution grid, shear mixing has occured. 
+We see even on a relatively low resolution grid, shear mixing has occured. An evolution of the density at 10 fps is seen below:  
+
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/11b32ddc-48f4-4185-b5cf-d391918a2445  
 
 We can compare this to the results of the [Athena](https://www.astro.princeton.edu/~jstone/Athena/tests/kh/kh.html) code, on a 512x512 grid at t = 1.00. Density is shown on a linear color map between 0.9 and 2.1  
 <img src="./images/athena-kh.t=1.gif" width="1200" />  
