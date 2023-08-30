@@ -66,12 +66,10 @@ Upon completion, you should obtain two output files. The final density and press
 
 Note that currently (Cholla SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004) this solution does not match that of Liska and Wendroff 2003 (shown below): the center of the density plot does not flatten out, forming a maximum that abruptly drops off at the edges. 
 
-![liskawendroff2003-noh](https://github.com/evazlimen/cholla-example-tests/assets/109487593/a0897465-5a00-4eb6-8f14-c2ffa16410ae)  
+<img src="images/liskawendroff2003-noh.png" width="300" /> 
 
 Further, the Noh test performs differently upon variation of the output frequency (here, we also vary CFL numbers):
 
-<img src="images/1dnoh-cfl.3.png" width="1200" /> 
-<img src="images/1dnoh-cfl.1.png" width="1200" /> 
-<img src="images/1dnoh-cfl.01.png" width="1200" /> 
+<img src="images/1dnoh-cfl.3.png" width="300" /> <img src="images/1dnoh-cfl.1.png" width="300" /> <img src="images/1dnoh-cfl.01.png" width="300" /> 
 
 
