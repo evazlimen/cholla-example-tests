@@ -49,4 +49,4 @@ Upon completion, you should obtain 201 output files. The initial and final densi
 <img src="./images/2dnoh_pressure_xy.png" alt="Two 2D histograms side by side, showing pressure of cells in y direction vs cells in x direction. The leftmost is the initial pressure plot with a constant pressure of 10^-6. The rightmost plot is the final pressure plot at t = 2.0 with a circular region of high pressure emanating from the origin, peaking around a pressure of 6. It has a radius of 130 cells. Everywhere else the pressure is around 10 ^-6." width="1200" />  
 
 We can compare to the [Fyris Alpha code](https://rsaa.anu.edu.au/research/established-projects/fyris/2-d-noh-shock-test):  
-<img src="./images/fyris-alpha-2dnoh.png" width="1200" />  
+<img src="./images/fyris-alpha-2dnoh.png" width="800" />  
