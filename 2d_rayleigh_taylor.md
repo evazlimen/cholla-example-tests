@@ -41,11 +41,11 @@ outdir=./
 ```
 
 Upon completion, you should obtain 101 output files. The initial and final density and pressure (in code units) is shown below. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
-<img src="./images/2drayleigh-taylor_gravity_density_xy.png" width="1200" />  
-<img src="./images/2drayleigh-taylor_gravity_pressure_xy.png" width="1200" />  
+<img src="./images/2drayleigh-taylor_gravity_density_xy.png" width="800" />  
+<img src="./images/2drayleigh-taylor_gravity_pressure_xy.png" width="800" />  
 
 This does not match the solution from Liska and Wendroff (2003)!
-<img src="./images/liska203-rayleigh-taylor.png" width="1200" />  
+<img src="./images/liska203-rayleigh-taylor.png" width="800" />  
 
 Mixing has barely occured in the Cholla solution. Attempts to increase the simulation runtime have so far been unsuccessful in producing a solution similar to the above example. Both the gravity and hydro builds produce the same results.
 
