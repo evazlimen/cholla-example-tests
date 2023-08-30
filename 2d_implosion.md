@@ -52,6 +52,6 @@ An evolution of the pressure overlaid with density contours is seen here at 10 f
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/c25da6cf-61e6-4baf-ad1a-47fa935174a3
 
 We can compare this to the results of Liska and Wendroff (2003). Non-symmetry perserving codes, often employing Strang splitting, fail to produce the jet:
-<img src="./images/liska2003-implosion.png" width="1200" />  
+<img src="./images/liska2003-implosion.png" width="800" />  
 
 
