@@ -48,5 +48,5 @@ Upon completion, you should obtain 200 output files. The initial and final densi
 <img src="./images/3dnoh_pressure_xy.png" alt="Two 2D histograms side by side, showing pressure of cells in y direction vs cells in x direction. The leftmost is the initial pressure plot with a constant pressure of 10^-6. The rightmost plot is the final pressure plot at t = 2.0 with a circular region of high pressure emanating from the origin, peaking around a pressure of 25. It has a radius of 130 cells. Everywhere else the pressure is around 10 ^-6." width="1200" />  
 
 We can compare to the original figure from Schneider and Robertson, 2015 (without the h correction):  
-<img src="./images/schneider-robertson-noh3d.png" width="1200" />  
+<img src="./images/schneider-robertson-noh3d.png" width="600" />  
 The same density contours are drawn. However, the present solution appears noisier.
