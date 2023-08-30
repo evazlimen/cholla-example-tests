@@ -37,6 +37,7 @@ Result of the example tests given in https://github.com/cholla-hydro/cholla.
 - Square wave
 - Strong shock
 - Test 3
+  
 2D:
 -  Constant
 -  Gresho
@@ -44,6 +45,7 @@ Result of the example tests given in https://github.com/cholla-hydro/cholla.
 -  Noh
 -  Sod
 -  Sound wave
+  
 3D:
 - Advecting Field Loop
 - Alfven Aave
