@@ -67,8 +67,8 @@ gamma=1.666666666666667
 ```
 Upon completion, you should obtain two output files. The initial and final densities and total pressures (in code units) of a slice along the z-midplane is shown below. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
 
-<img src="./images/mhd-blast_density_xy.png" alt="Two 2D histograms side by side, showing density of cells in the y direction vs cells in x direction. The leftmost is the initial density plot with a constant density of 1 throughout all cells. The rightmost plot is the final density plot at t = 0.20. An oval at the center of the plot and tilted towards the upper right corner is a region approaching zero density. At its ends are regions of denisty of 1.5, the maximum. Two overlapped circles, one centered slightly aboive and one slightly below the cetner of the oval have densities of around 1.25. The remaining cells have a denisty of 1." width="1200" />  
-<img src="./images/mhd-blast_pressure_xy.png" alt="Two 2D histograms side by side, showing pressure of cells in the y direction vs cells in x direction. The leftmost is the initial pressure plot with a pressure of 0.3 everywhere except for a circle of radius 25 cells centered on the grid. Here the pressure is a maximum. The rightmost plot is the final pressure plot at t = 0.20. There is an oval of higher pressure at the center of the grid tilted towards the upper right corner. There is a wider oval of pressure 0.5 overlaid on top of it. This is all ringed by an oval of pressure 0.8 and the remaining cells have a pressure of 0.3. The ovals occupy the region of y = 75-225 and x = 10-390." width="1200" />  
+<img src="./images/mhd-blast_density_xy.png" alt="Two 2D histograms side by side, showing density of cells in the y direction vs cells in x direction. The leftmost is the initial density plot with a constant density of 1 throughout all cells. The rightmost plot is the final density plot at t = 0.20. An oval at the center of the plot and tilted towards the upper right corner is a region approaching zero density. At its ends are regions of denisty of 1.5, the maximum. Two overlapped circles, one centered slightly aboive and one slightly below the cetner of the oval have densities of around 1.25. The remaining cells have a denisty of 1." width="800" />  
+<img src="./images/mhd-blast_pressure_xy.png" alt="Two 2D histograms side by side, showing pressure of cells in the y direction vs cells in x direction. The leftmost is the initial pressure plot with a pressure of 0.3 everywhere except for a circle of radius 25 cells centered on the grid. Here the pressure is a maximum. The rightmost plot is the final pressure plot at t = 0.20. There is an oval of higher pressure at the center of the grid tilted towards the upper right corner. There is a wider oval of pressure 0.5 overlaid on top of it. This is all ringed by an oval of pressure 0.8 and the remaining cells have a pressure of 0.3. The ovals occupy the region of y = 75-225 and x = 10-390." width="800" />  
 
 By changing the outstep to 0.005, you will obtain 41 output files and can obtain the evolution of the density (here at 10 fps):  
 
@@ -78,8 +78,8 @@ We see a rarefaction wave propagating inwards, creating a region of low density 
 
 We can compare to the final density contours of Stone and Gardiner (2008):  
 Cholla:  
-<img src="./images/mhd-blast_densitycontour_xy.png" width="1200" />  
+<img src="./images/mhd-blast_densitycontour_xy.png" width="600" />  
 
 Stone and Gardiner:  
   
-<img src="./images/mhd-blast.jpg" width="1200" />  
+<img src="./images/mhd-blast.jpg" width="600" />  
