@@ -67,10 +67,4 @@ Upon completion, you should obtain two output files. The initial and final densi
 
 We see a contact discontinuity follow directly by a shock. This solution is in agreement with that of Toro test 3, shown below:  
    
-![toro2013test3](https://github.com/evazlimen/cholla-example-tests/assets/109487593/0eb33a5e-331a-4548-bfff-a492378e959e)
-
-
-
-    
-<!---Interestingly, it better matches the expected Liska and Wendroff 2003 test 3a ('stationary') solution than stationary parameter file: see [stationary](https://github.com/evazlimen/cholla-example-tests/blob/main/1d_stationary.md) and 
-![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/892728ed-2ed6-433e-ab83-059f99238149)-->
+<img src="./images/toro2013test3.png"  width="1200" /> 
