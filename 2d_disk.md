@@ -40,5 +40,5 @@ zu_bcnd=3
 outdir=./
 ```
 Upon completion, you should obtain 501 output files. However, after the first ~54 snaps, I get the error: Thread crashed in final update. -nan -nan -nan. The simulation continues to run and output but with incomplete data. The initial and final density and pressure (in code units) is shown below. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
-<!---<img src="./images/2drayleigh-taylor_gravity_density_xy.png" width="1200" />  
-<img src="./images/2drayleigh-taylor_gravity_pressure_xy.png" width="1200" />  -->
+<img src="./images/2ddisk_density_xy.png" width="1200" />  
+<img src="./images/2ddisk_pressure_xy.png" width="1200" />  
