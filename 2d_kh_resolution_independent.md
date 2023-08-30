@@ -44,7 +44,7 @@ Upon completion, you should obtain 201 output files. The initial and final densi
 Density:  
 <img src="./images/2dkh_res_ind_density_xy.png" width="1200" />  
 Pressure:  
-<img src="./images/2dkh_discontinuous_pressure_xy.png" width="1200" />  
+<img src="./images/2dkh_res_ind_pressure_xy.png" width="1200" />  
 
 This does not match the solution for the 3D example! It appears the initial conditions are not being set correctly. Also, the parameter file includes boundaries for the z direction, and the boundaries in the y direction are different than those in the 3D KH resolution independent test. 
 
