@@ -47,7 +47,7 @@ Density:
 Pressure:  
 <img src="./images/2dkh_discontinuous_pressure_xy.png" width="1200" />  
 
-We see even on a relatively low resolution grid, shear mixing has occured. An evolution of the density at 10 fps is seen below:  
+We see even on a relatively low resolution grid, significant shear mixing has occured. An evolution of the density at 10 fps is seen below:  
 
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/11b32ddc-48f4-4185-b5cf-d391918a2445  
 
