@@ -67,4 +67,4 @@ Upon completion, you should obtain two output files. The initial and final densi
 
 We see a contact discontinuity follow directly by a shock. This solution is in agreement with that of Toro test 3, shown below:  
    
-<img src="./images/toro2013test3.png"  width="1200" /> 
+<img src="./images/toro2013test3.png"  width="800" /> 
