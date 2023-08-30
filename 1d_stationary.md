@@ -71,6 +71,5 @@ Upon completion, you should obtain two output files. The initial and final densi
 
 We see a stationary contact at x = 0.8. The width of the contact is not fully resolved. With the diode disabled,this solution matches that of Liska and Wendroff 2003 (http://www-troja.fjfi.cvut.cz/~liska/CompareEuler/compare8-bw.pdf).
 
-![liskawendroff2003-test3a](https://github.com/evazlimen/cholla-example-tests/assets/109487593/66497918-ece1-4d01-8961-8ab7f8c0ec8b)
+<img src="./images/liskawendroff2003-test3a.png" width="1200" />  
 
-All information is as of SHA ab36c0f630a82e6eb9ea5e0f43c9e4eb0e81b004.

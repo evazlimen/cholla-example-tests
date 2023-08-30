@@ -47,5 +47,4 @@ We see a contact discontinuity around x = 0.6 followed by a shock at x = 0.65 an
 
 We can also obtain the evolution of the density (here at 10 fps):
 
-<video width="320" height="240" autoplay>
-  <source src="./images/1d-blast-density.mp4" type="video/mp4">
+https://github.com/evazlimen/cholla-example-tests/assets/109487593/d27f9808-7803-4c71-95ea-c2389cdfa013
