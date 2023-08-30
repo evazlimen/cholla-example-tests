@@ -16,7 +16,6 @@ Result of the example tests given in https://github.com/cholla-hydro/cholla.
 - Disk: something with the initial conditions is not being set correctly and the grid is being initialized with zero energy and density
 - spherical collapse
 - Zeldovich pancake: fails to run with the cosmology build, claims "To run a Zeldovich Pancake COSMOLOGY has to be turned ON"
-- Noh
 
 # Tests that require diode boundaries to be disabled:
 1D:  
@@ -66,6 +65,7 @@ Result of the example tests given in https://github.com/cholla-hydro/cholla.
 - Spherical overpressure
 - Uniform
 - Sound wave
+- Noh
 
 
 
