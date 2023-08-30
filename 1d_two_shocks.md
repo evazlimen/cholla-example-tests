@@ -69,5 +69,5 @@ Upon completion, you should obtain 2 output files. The initial and final density
 
 We see a shock, contact discontinuity, and a shock, which is in agreement with Toro's solution and can be seen below:  
 
-<img src="./images/toro2013test4.png" width="1200" />  
+<img src="./images/toro2013test4.png" width="800" />  
 
