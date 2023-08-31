@@ -45,9 +45,12 @@ outdir=./
 Upon completion, you should obtain 251 output files. The initial and final pressure (in code units) is shown below. Final color pressure map is overlaid by 36 density contours from 0.125 to 1. Examples of how to plot projections and slices can be found in `cholla/python_scripts/Projection_Slice_Tutorial.ipynb`.  
 <img src="./images/2d_implosion-funkybranch_pressures_xy.png" width="1200" />  
 
-We see that a jet has appeared in the solution due to the high symmetry preservation of Cholla. 
+We see that a jet has appeared in the solution due to the high symmetry preservation of Cholla. We can quantify the perservation of symmetry in density over time by taking the sum over the full grid of the absolute value of $d_{ij}-d_{ji}$ across the line y = x:  
+<img src="./images/2d_implosion_symmetry.png" width="1200" />  
 
-An evolution of the pressure overlaid with density contours is seen here at 10 fps:
+While the density remains highly symmetric through t = 1, symmetry drastically decreases with time.  
+
+An evolution of the pressure overlaid with density contours is seen here at 10 fps:  
 
 https://github.com/evazlimen/cholla-example-tests/assets/109487593/c25da6cf-61e6-4baf-ad1a-47fa935174a3
 
