@@ -1,5 +1,5 @@
 # 3D MHD Contact Wave
-This is a linear wave in which denisty changes but pressure is held constant. This test consists of an initial density of 1.0, initial pressure of 0.6, and velocity of 1 $\hat{x}$.The left side has a magnetic field of 0.75 $\hat{x}$ + 1 $\hat{y}$ while the right side has a magnetic field of  $\hat{x}$ +1.5 $\hat{y}$. Gamma is set to 1.666666666666667. A linear wave is initialized with amplitude 1e-6. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Linear_Wave()`. 
+This is a linear wave in which density changes but pressure is held constant. This test consists of an initial density of 1.0, initial pressure of 0.6, and velocity of 1 $\hat{x}$.The left side has a magnetic field of 0.75 $\hat{x}$ + 1 $\hat{y}$ while the right side has a magnetic field of  $\hat{x}$ +1.5 $\hat{y}$. Gamma is set to 1.666666666666667. A linear wave is initialized with amplitude 1e-6. This test is performed with the mhd build (`cholla/builds/make.type.mhd`). Full initial conditions can be found in `cholla/src/grid/initial_conditions.cpp`under `Linear_Wave()`. 
 
 ## Parameter file: (`cholla/examples/3D/mhd_contact_wave.txt`)
 ```
